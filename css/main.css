@@ -1,0 +1,16 @@
+.grid{
+	justify-content: center;
+	display: grid;
+	 grid-template-columns: repeat(5, 1fr);
+}
+.test{
+	font-family: arial;
+	font-size: 200px;
+	filter: blur(5px);
+	margin: auto;
+	transition: all 0.5s;
+}
+.test:hover{
+	filter: blur(0px);
+	cursor: pointer;
+}
